@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device width ,initial-scal=1.0">
+    <style>
+      .scontainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        padding: 20px;
+        background-color: lightblue;
+        margin-top: 20px;
+      }
+
+      .links,
+      .maps,
+      .head-office {
+        flex: 1;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .links p,
+      .head-office p,
+      .maps p {
+        margin-bottom: 10px;
+
+      }
+
+      .maps p {
+        font-weight: bold;
+      }
+
+      .links ol,
+      .maps ol,
+      .head-office ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .links li,
+      .maps li,
+      .head-office li {
+        margin-bottom: 5px;
+      }
+
+      .links a,
+      .maps a,
+      .head-office a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .links a:hover,
+      .maps a:hover,
+      .head-office a:hover {
+        text-decoration: underline;
+      }
+      
+      .body {
+        background-color: white;
+      }
+
+      .cell {
+        width: 1400px;
+        height: 50px;
+        background-image: url("Aluminium sheetrolls.jpg");
+        background-size: cover;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-size: xx-large;
+      }
+
+      .l1 {
+        display: block;
+        border-block: solid 2px blue;
+      }
+
+      nav {
+        background-color: white;
+        text-align: center;
+        border: 2px dotted orangered;
+      }
+
+      nav ol {
+        text-align: center;
+        margin-left: 10px;
+
+
+      }
+
+      nav ol li {
+        font-display: none;
+        text-align: center;
+
+
+      }
+
+      nav ol li a {
+        font-display: none;
+        color: black;
+        margin-top: 10px;
+        text-align: center;
+        display: flex;
+        float: center;
+
+      }
+
+      .slide-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        background-color: #f0f0f0;
+      }
+
+      .address,
+      .contact-info {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+      }
+
+      .address h3,
+      .contact-info h3 {
+        color: #333;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold;
+      }
+
+      .address p,
+      .contact-info p {
+        font-size: 0.95rem;
+        line-height: 1.4;
+        color: #666;
+      }
+
+      .address a,
+      .contact-info a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      .address a:hover,
+      .contact-info a:hover {
+        text-decoration: underline;
+      }
+
+      
+
+      .footer {
+        vertical-align: top;
+      }
+
+      .footer p {
+        background-color: silver;
+        color: black;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+<body>
+  <table>
+    <tr>
+      <td class="cell">
+        <p>CONTACT US</p>
+      </td>
+    </tr>
+  </table>
+
+  <h2 class="l1">Home >> CONTACT US</h2>
+  <div class="slide-container">
+    <div class="address">
+      <h3>Head Office:</h3>
+      <p>
+        Address: Plot no.B-31/3, Zaveri Ind.Estate,<br>
+        Nr. Sanghvi Weigh Bridge, <br>
+        Kathwada, Ahmedabad-382430
+      </p>
+    </div>
+
+
+
+    <div class="contact-info">
+      <h3>Contact Us</h3>
+      <p>Srushti Kansara: <a href="tel:8320206276">+91 8320206276</a></p>
+      <p>Board Email Id: <a href="alubuild@gmail.com">alubuild@gmail.com</a></p>
+      <p>Email Id: <a href="srushtikansara26@gmail.com">srushtikansara26@gmail.com</p>
+
+    </div>
+  </div>
+
+  <div class="scontainer">
+    <div class="links">
+      <h3>Links</h3>
+      <ol>
+        <li><a href="website alubuild.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact us.html">Contact Us</a></li>
+      </ol>
+    </div>
+    <div class="maps">
+      <p>GOOGLE MAPS</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.233398479704!2d72.62383747536926!3d23.051903279153272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86a4aee6034f%3A0x2d83b790c294ecae!2s29%2C%20Naroda%20Rd%2C%20Memco%2C%20D%20Colony%2C%20Ahmedabad%2C%20Gujarat%20382345!5e0!3m2!1sen!2sin!4v1714309901173!5m2!1sen!2sin"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="head-office">
+      <h3>Head Office:</h3>
+      <p>Address: Plot no.B-31/3, Zaveri Ind.Estate, Nr. Sanghvi Weigh Bridge, Kathwada, Ahmedabad-382430</p>
+      <p>Board Mobile Number: +91 8320206276</p>
+      <p>Board Email Id: <a href="mailto:alubuild@gmail.com">alubuild@gmail.com</a></p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <footer>
+      <p>©2024 Alubuild.All rights are reserved </p>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>

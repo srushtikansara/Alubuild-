@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device width ,initial-scal=1.0">
+
+    <style>
+        .body {
+            background-color: blanchedalmond;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .cell {
+            width: 1400px;
+            height: 150px;
+            background-image: url("Aluminum rolls.jpg");
+            background-size: cover;
+            color: rgb(37, 33, 34);
+            text-align: center;
+            padding: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: normal;
+            font-size: xx-large;
+        }
+
+        .l1 {
+            display: block;
+            border-block: solid 2px blue;
+        }
+
+        .scontainer {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: lightblue;
+            margin-top: 20px;
+        }
+
+        .links,
+        .maps,
+        .head-office {
+            flex: 1;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .links p,
+        .head-office p,
+        .maps p {
+            margin-bottom: 10px;
+
+        }
+
+        .maps p {
+            font-weight: bold;
+        }
+
+        .links ol,
+        .maps ol,
+        .head-office ol {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .links li,
+        .maps li,
+        .head-office li {
+            margin-bottom: 5px;
+        }
+
+        .links a,
+        .maps a,
+        .head-office a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .links a:hover,
+        .maps a:hover,
+        .head-office a:hover {
+            text-decoration: underline;
+        }
+
+
+        .footer {
+            background-color: silver;
+        }
+
+        .footer p {
+            background-color: silver;
+            color: black;
+            text-align: left;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+            padding: 1rem;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding-left: 100px;
+            padding-right: 100px;
+            overflow: hidden;
+            max-width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .product-info {
+            padding: 0.5rem;
+            text-decoration: none;
+        }
+
+        .product h3 {
+            margin: 0.5rem 0;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .product:hover {
+            transform: scale(1.10);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+
+        .content-container {
+            display: flex;
+            background-color: rgb(252, 216, 161);
+
+        }
+
+        .navigation {
+            flex: 1;
+            max-width: 500px;
+            height: 300px;
+            padding: 10px;
+            text-align: center;
+            background-color: #f1d5d5;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 2px solid #000;
+            border-radius: 8px;
+        }
+
+        .navigation:hover {
+            background-color: #f8f8f8;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .navigation ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .navigation li {
+            padding: 0.5rem 1rem;
+            white-space: nowrap;
+            transition: background-color 0.3s ease;
+        }
+
+        .navigation li:hover {
+            background-color: #eaeaea;
+        }
+
+        .navigation a {
+            color: #333;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navigation a:hover {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td class="cell">
+                <p>PRODUCTS</p>
+            </td>
+        </tr>
+    </table>
+    <h2 class="l1">Home >> Products</h2>
+
+    <div class="content-container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <h3><u>PRODUCTS</u></h3>
+                </li>
+                <li><a href="Aluminium shots.html">ALUMINIUM SHOTS</a></li>
+                <li><a href="Aluminium ingots.html">ALUMINIUM INGOTS</a></li>
+                <li><a href="Aluminium powder.html">ALUMINIUM POWDER</a></li>
+                <li><a href="Aluminium Notchbars.html">ALUMINIUM NOTCHBARS</a></li>
+                <li><a href="Aluminium cubes.html">ALUMINIUM CUBES</a></li>
+            </ul>
+        </div>
+
+
+        <div class="product-container">
+            <div class="product">
+                <a href="Aluminium shots.html">
+                    <img src="Aluminium shots.jpeg" alt="Aluminium Shots">
+                    <div class="product-info">
+                        <h3>ALUMINIUM SHOTS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Aluminium ingots.html">
+                    <img src="Aluminium ingot.jpeg" alt="Aluminium Ingots">
+                    <div class="product-info">
+                        <h3>ALUMINIUM INGOTS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Aluminium powder.html">
+                    <img src="Aluminium powder.jpeg" alt="Aluminium Powder">
+                    <div class="product-info">
+                        <h3>ALUMINIUM POWDER</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Aluminium Notchbars.html">
+                    <img src="AluminiumNotchBar.jpeg" alt="Aluminium Notchbars">
+                    <div class="product-info">
+                        <h3>ALUMINIUM NOTCHBARS</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="product">
+                <a href="Aluminium cubes.html">
+                    <img src="Aluminium Cubes.jpeg" alt="Aluminium Cubes">
+                    <div class="product-info">
+                        <h3>ALUMINIUM CUBES</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="scontainer">
+        <div class="links">
+            <h3>Links</h3>
+            <ol>
+                <li><a href="website alubuild.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Contact us.html">Contact Us</a></li>
+            </ol>
+        </div>
+        <div class="maps">
+            <p>GOOGLE MAPS</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.233398479704!2d72.62383747536926!3d23.051903279153272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86a4aee6034f%3A0x2d83b790c294ecae!2s29%2C%20Naroda%20Rd%2C%20Memco%2C%20D%20Colony%2C%20Ahmedabad%2C%20Gujarat%20382345!5e0!3m2!1sen!2sin!4v1714309901173!5m2!1sen!2sin"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="head-office">
+            <h3>Head Office:</h3>
+            <p>Address: Plot no.B-31/3, Zaveri Ind.Estate, Nr. Sanghvi Weigh Bridge, Kathwada, Ahmedabad-382430</p>
+            <p>Board Mobile Number: +91 8320206276</p>
+            <p>Board Email Id: <a href="mailto:alubuild@gmail.com">alubuild@gmail.com</a></p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <footer>
+            <p>©2024 Alubuild.All rights are reserved </p>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    .scontainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 20px;
+      background-color: lightblue;
+      margin-top: 20px;
+    }
+
+    .links,
+    .maps,
+    .head-office {
+      flex: 1;
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .links p,
+    .head-office p,
+    .maps p {
+      margin-bottom: 10px;
+    }
+
+    .maps p {
+      font-weight: bold;
+    }
+
+    .head-office p{
+      font-family: Verdana, sans-serif;
+      font-style: normal;
+      color: black;
+      text-decoration: none;
+      font-size: unset;
+    }
+
+    .links ol,
+    .maps ol,
+    .head-office ol {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .links li,
+    .maps li,
+    .head-office li {
+      margin-bottom: 5px;
+    }
+
+    .links a,
+    .maps a,
+    .head-office a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .links a:hover,
+    .maps a:hover,
+    .head-office a:hover {
+      text-decoration: underline;
+    }
+
+    .body {
+      background-color: white;
+    }
+
+    .cell {
+      width: 1400px;
+      height: 50px;
+      background-image: url("Aluminium sheet.jpg");
+      background-size: cover;
+      padding: 20px;
+
+    }
+
+    .cell p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      font-size: xx-large;
+      color: black;
+      text-align: center;
+    }
+
+    .l1 {
+      display: block;
+      border-block: solid 2px blue;
+    }
+
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      color: brown;
+      text-decoration: double;
+      font-size: xx-large;
+    }
+
+    .shots {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 20px;
+    }
+
+    .shots-image {
+      flex-shrink: 0;
+    }
+
+    .shots-image img {
+      width: 500px;
+      height: 500px;
+      object-fit: cover;
+    }
+
+    .price {
+      flex-grow: 1;
+      padding: 0 20px;
+      text-align: left;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+      color: brown;
+      font-size: xx-large;
+      margin: 1px;
+      background-color: bisque;
+      border: 2px solid;
+    }
+
+    .inquiry-btn {
+      padding: 10px 40px;
+      font-size: 16px;
+      background-color: crimson;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-left: 50%;
+    }
+
+
+    .inquiry-btn:hover {
+      background-color: crimson;
+    }
+
+    .info {
+      background-color: white;
+
+
+    }
+
+    .info p {
+      text-align: left;
+      color: black;
+    }
+
+    .infos {
+      text-align: justify;
+      color: black;
+    }
+
+    .infos p {
+      text-align: justify;
+      color: black;
+      font-size: medium;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: normal;
+    }
+
+    .footer {
+      background-color: silver;
+    }
+
+    .footer h4 {
+      background-color: silver;
+      color: black;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td class="cell">
+        <p>Products</p>
+      </td>
+    </tr>
+  </table>
+  <h2 class="l1">Home >> Products >> ALUMINIUM SHOTS</h2>
+  <p>ALUMINIUM SHOTS</p>
+
+  <div class="shots">
+    <div class="shots-image">
+      <a href="#"><img src="Aluminium shots.jpeg" style="width:500px;height:500px"></a></img>
+    </div>
+
+    <div class="price">
+      <p>Quality:99.5%,98.5%,97.5%,96.5% . As per requirment of consumer.<br><br>
+        Price:Our price depends upon the NALCO(basic market value).</p>
+    </div>
+
+  </div>
+
+
+  <a href="Inquiry form.html"><button class="inquiry-btn">Inquiry</button></a>
+
+
+  <script src="script.js">
+
+  </script>
+  <div class="info">
+    <p>More Details About This Product</p>
+  </div>
+
+  <div class="infos">
+    <p>The Aluminum shot are the fine round aggregates of aluminum. Aluminum shot are fundamentally utilized in
+      degassing process in steel fabricating industry. Aluminum shot framed by emptying liquid aluminum into water isn't
+      attractive by virtue of its coarse size and minimization of structure, in this way giving moderate and fragmented
+      responses.
+
+      The ideal type of aluminum for these responses is known as grained aluminum, and is delivered by breaking up the
+      metal precisely similarly as it is going from the fluid to the strong state.
+
+      Likewise, these are fabricated by melting of primary or secondary aluminium aluminum and blown into air or vacuum,
+      or are thrown in sand and sieved off. Different techniques incorporate throwing of liquid aluminum in water.
+
+      Aluminum shots is a powerful deoxidizer, but due to its low density and low melting point, additions by cones or
+      notchbar tend to float, oxidizing at a fast rate. This reduces the amount that makes contact with the steel.
+      Aluminum wire forces the melting and release of aluminum well below the surface of the steel at a depth of 18" to
+      58". This allows for recovery far higher than that of cones or notchbar and provides excellent cost savings.</p>
+  </div>
+
+  <div class="scontainer">
+    <div class="links">
+      <h3>Links</h3>
+      <ol>
+        <li><a href="website alubuild.html">Home</a></li>
+        <li><a href="Products.html">Products</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact us.html">Contact Us</a></li>
+      </ol>
+    </div>
+    <div class="maps">
+      <h3>GOOGLE MAPS</h3>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.233398479704!2d72.62383747536926!3d23.051903279153272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e86a4aee6034f%3A0x2d83b790c294ecae!2s29%2C%20Naroda%20Rd%2C%20Memco%2C%20D%20Colony%2C%20Ahmedabad%2C%20Gujarat%20382345!5e0!3m2!1sen!2sin!4v1714309901173!5m2!1sen!2sin"
+        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="head-office">
+      <h3>Head Office:</h3>
+      <p>Address: Plot no.B-31/3, Zaveri Ind.Estate, Nr. Sanghvi Weigh Bridge, Kathwada, Ahmedabad-382430</p>
+      <p>Board Mobile Number: +91 8320206276</p>
+      <p>Board Email Id: <a href="mailto:alubuild@gmail.com">alubuild@gmail.com</a></p>
+    </div>
+  </div>
+
+
+  <div class="footer">
+    <footer>
+      <h4>©2024 Alubuild.All rights are reserved </h4>
+    </footer>
+  </div>
+
+
+</body>
+
+</html>
